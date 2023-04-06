@@ -16,7 +16,7 @@ export default function LoginScreen() {
   const handleLogin = () => {
     // Handle login logic here, for example by calling an authentication API
     // If the login is successful, navigate to the dashboard screen
-    navigation.navigate("Dashboard");
+    navigation.navigate("CreateProfile");
   };
 
   return (

@@ -1,11 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
+import Chart from "./Chart";
 
 const DashboardScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Dashboard</Text>
       <Text style={styles.text}>Welcome to your dashboard!</Text>
+      <Chart />
     </View>
   );
 };
