@@ -42,6 +42,9 @@ export default function LoginScreen() {
       <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
         <Text style={styles.loginText}>LOGIN</Text>
       </TouchableOpacity>
+      <TouchableOpacity style={styles.loginBtn} onPress={handleLogin}>
+        <Text style={styles.loginText}>REGISTER</Text>
+      </TouchableOpacity>
     </View>
   );
 }
@@ -56,7 +59,7 @@ const styles = StyleSheet.create({
   logo: {
     fontWeight: "bold",
     fontSize: 50,
-    color: "#fb5b5a",
+    color: "#32a852",
     marginBottom: 40,
   },
   inputView: {
@@ -82,7 +85,7 @@ const styles = StyleSheet.create({
   },
   loginBtn: {
     width: "80%",
-    backgroundColor: "#fb5b5a",
+    backgroundColor: "#32a852",
     borderRadius: 25,
     height: 50,
     alignItems: "center",
